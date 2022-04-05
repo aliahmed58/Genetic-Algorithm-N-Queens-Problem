@@ -6,6 +6,3 @@ class Offspring:
 
     def __str__(self):
         return f'State: {self.state} | Fitness: {self.fitness}'
-
-    def __eq__(self, other):
-        return self.fitness == other.fitness
